@@ -1,5 +1,9 @@
 package Monitorar;
 
+/*
+ * Classe destinada a coisa monitorada 
+ */
+
 public class veiculos {
 
     private String placa;
@@ -25,6 +29,13 @@ public class veiculos {
     public void setVelocidade(int velocidade){
         this.velocidade = velocidade;
     }
+
+    @Override
+    public String toString(){
+        return "Placa do veículo: " + placa + ", velocidade: " + velocidade;
+    }
+
+    
 
     
 }
